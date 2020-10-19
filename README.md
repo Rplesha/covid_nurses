@@ -14,8 +14,8 @@ You will need to have python 3.6 or higher installed with the packages:
 - pandas (v1.1.0)
 - argparse (v1.1)
 
-There are two argparse options to use with the python call
-`python find_date_nurses.py -lookup` or `python find_date_nurses.py -l` will ask for a nurse's last name and produce the date and number of days since the last covid patient.
-`python find_date_nurses.py -update` or `python find_date_nurses.py -u` will ask for a nurse's last name and add a date to nurses.csv.
+There are two argparse options to use with the python call:
+1. `python find_date_nurses.py -lookup` or `python find_date_nurses.py -l` will ask for a nurse's last name and produce the date and number of days since the last covid patient.
+2. `python find_date_nurses.py -update` or `python find_date_nurses.py -u` will ask for a nurse's last name and add a date to nurses.csv.
 
 You can also run the two together and both lookup nurses and update the file: `python find_date_nurses.py -u -l`
